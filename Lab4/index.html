@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Button Color, Toggle Visibility, and Add to List</title>
+</head>
+<body>
+
+<button class="color-button" id="button1">Przycisk 1</button>
+<button class="color-button" id="button2">Przycisk 2</button>
+<button class="color-button" id="button3">Przycisk 3</button>
+<button id="toggleButton">Toggle Visibility</button>
+<div id="elementToToggle" style="display: block;">Ten element może być ukryty i pokazany</div>
+
+<input type="text" id="textInput" placeholder="Wpisz coś...">
+<button id="addToListButton">Dodaj do listy</button>
+<ul id="list"></ul>
+
+<br><br>
+
+<input type="text" id="firstNameInput" placeholder="Imię">
+<input type="text" id="lastNameInput" placeholder="Nazwisko">
+<button id="addToTableButton">Dodaj do tabeli</button>
+
+<table id="dataTable" border="1">
+  <thead>
+    <tr>
+      <th>Imię</th>
+      <th>Nazwisko</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+  </tbody>
+</table>
+
+<label for="celsiusInput">Celsius:</label>
+<input type="number" id="celsiusInput">
+<button onclick="convertToCelsius()">Convert to Fahrenheit</button>
+<p id="resultToFahrenheit"></p>
+
+<label for="fahrenheitInput">Fahrenheit:</label>
+<input type="number" id="fahrenheitInput">
+<button onclick="convertToFahrenheit()">Convert to Celsius</button>
+<p id="resultToCelsius"></p>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
