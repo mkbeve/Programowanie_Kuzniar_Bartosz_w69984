@@ -1,0 +1,50 @@
+header{
+    height: 10%;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    text-align: left;
+    padding: 20 0 0 20;
+}
+
+ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    margin-right: 25px;
+}
+
+article{
+    display: block;
+    align-items: stretch;
+    font-size: 20px;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    padding: 150px 120px;
+}
+
+section{
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 20px;
+}
+
+.article-element{
+    width: 50%
+}
+
+footer{
+    text-align: center;
+}
+
