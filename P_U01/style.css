@@ -32,3 +32,11 @@ header{
     height: 20%;
 }
 
+img{
+    border-radius: 5px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
