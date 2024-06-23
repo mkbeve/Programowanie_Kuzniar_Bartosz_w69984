@@ -44,16 +44,35 @@
         </div>
     </main>
     <aside>
-        <table border="1px" rules="all">
-            <tr><td>Imie</td><td>Podgatunek</td><td>Wiek</td><td>Kolor</td></tr>
-            <tr><td>Maciej</td><td>Owczarek niemiecki</td><td>2</td><td>Brązowy</td></tr>
-            <tr><td>Justyna</td><td>Chomik syryjski</td><td>1</td><td>Biało-rudy</td></tr>
-            <tr><td>Jan</td><td>Brachypelma hamorii</td><td>4</td><td>Czarno-pomarańczowy</td></tr>
+        <form id="baza">
+            <label for="name">Imie</label>
+            <input type="text" id="name" name="name">
+            <label for="podgatunek">Podgatunek</label>
+            <input type="text" id="podgatunek" name="podgatunek">
+            <label for="age">Wiek</label>
+            <input type="number" id="age" name="age">
+            <label for="color">Kolor</label>
+            <input type="text" id="color" name="color">
+            <br>
+            <button type="submit">Wyślij</button>
+        </form>
+        <table border="1px" rules="all" id="bazaList">
+            <thead>
+                <th>Imię</th>
+                <th>Podgatunek</th>
+                <th>Wiek</th>
+                <th>Kolor</th>
+            </thead>
+            <tbody>
+                
+            </tbody>
         </table>
+        
     </aside>
     <footer>
         <a>w69984 31.05.2024</a>
     </footer>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
